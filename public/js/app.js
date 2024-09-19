@@ -1,4 +1,28 @@
 const btnStatus=document.querySelector("#status")
+const menuBtn=document.getElementById('menu-btn')
+const listMobile=document.getElementById('list-mobile')
+let flag=true
+
+
+
+
+menuBtn.addEventListener('click',function(){
+    if(flag){
+
+        listMobile.style.right="-16px"
+        listMobile.style.top='60px'
+        flag=false
+    }else{
+        listMobile.style.right="-228px"
+        listMobile.style.top='60px'
+        flag=true
+    }
+
+    
+
+    
+})
+
 
 console.log(btnStatus);
 

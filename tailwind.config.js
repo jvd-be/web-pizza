@@ -4,7 +4,6 @@ module.exports = {
  darkMode:"selector",
   theme: {
     container:{
-      padding:"7rem",
       center:true,
     },
     fontFamily:{
